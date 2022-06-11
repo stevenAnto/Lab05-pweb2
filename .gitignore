@@ -16,3 +16,12 @@ tests/coverage_html/
 tests/.coverage
 build/
 tests/report/
+
+#from manul
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
