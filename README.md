@@ -583,33 +583,33 @@ PythonAnywhere
 13. **Creacion de página de inicio:**
 
 
--Inicialmente debemos editar urls.py que se encuentra dentro de mysite, agregando una conexión a un urls.py dentro de la carpeta blog
+-   Inicialmente debemos editar urls.py que se encuentra dentro de mysite, agregando una conexión a un urls.py dentro de la carpeta blog
 
--Seguido de ello creamos dicho archivo en blog, añadiendo una dirección que se diriga al archivo list_post.html
+-  Seguido de ello creamos dicho archivo en blog, añadiendo una dirección que se diriga al archivo list_post.html
 
--Por el momento, si abrimos la dirección, nos aparecera un error ya que aún no creamos dicho archivo
+-  Por el momento, si abrimos la dirección, nos aparecera un error ya que aún no creamos dicho archivo
 
--Por ello, dentro de la carpeta blog, crearemos la carpeta templates, y dentro de esta una nueva carpeta blog
+-  Por ello, dentro de la carpeta blog, crearemos la carpeta templates, y dentro de esta una nueva carpeta blog
 
--Dentro de esta ultima crearemos list_post.html
+-   Dentro de esta ultima crearemos list_post.html
 
--Añadiendo lo que requerimos que se vea en la pahina de inicio
+-   Añadiendo lo que requerimos que se vea en la pahina de inicio
 
--Para la visualización de nuestros post, utilizaremos un ciclo for en cual recorrera cada objeto post que tenga como condición que haya sido publicado antes de la fecha actual.
+-   Para la visualización de nuestros post, utilizaremos un ciclo for en cual recorrera cada objeto post que tenga como condición que haya sido publicado antes de la fecha actual.
 
 14. **Agregar un diseño a nuestra pagina:**
 
--Ello será agregado en mauor proporción a el documento list_post.html
+-   Ello será agregado en mauor proporción a el documento list_post.html
 
--Seguido de ello creamos dicho archivo en blog, añadiendo una dirección que se diriga al archivo list_post.html
+-   Seguido de ello creamos dicho archivo en blog, añadiendo una dirección que se diriga al archivo list_post.html
 
--Por el momento, si abrimos la dirección, nos aparecera un error ya que aún no creamos dicho archivo
+-   Por el momento, si abrimos la dirección, nos aparecera un error ya que aún no creamos dicho archivo
 
--Por ello, dentro de la carpeta blog, crearemos la carpeta templates, y dentro de esta una nueva carpeta blog
+-   Por ello, dentro de la carpeta blog, crearemos la carpeta templates, y dentro de esta una nueva carpeta blog
 
--Dentro de esta ultima crearemos list_post.html
+-   Dentro de esta ultima crearemos list_post.html
 
--Añadiendo lo que requerimos que se vea en la pahina de inicio
+-   Añadiendo lo que requerimos que se vea en la pahina de inicio
 
 Para la visualización de nuestros post, utilizaremos un ciclo for en cual recorrera cada objeto post que tenga como condición que haya sido publicado antes de la fecha actual.
 
