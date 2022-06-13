@@ -579,7 +579,11 @@ Crea la base de datos en PythonAnywhere ejecutando el comando manage.py migrate 
 Nos dirigimos a WEB en pythonAnywhere, en donde nos porpociona una URL, y de esa manera ya podemos ver nuestra pagina web en el servidor de
 PythonAnywhere
 
-
+22. Luego se creo un archivo base.html en la que se copio el código similar a post list solo dejando el area de body para que sea reemplazado posteriormente
+23. Posteriormente, se edito el archivo post_list.html para extender el archivo base.html.
+24. Se crearon eñ archivo post_detail el cual muestra el contenido de algun post, y se le vinculo a post_list.
+25. Se añadio el url respectivo en el archivo urls.py.
+26. Se modifico el archivo view.py, donde se incluyo una función que pueda renderizar lo solicitado.
 
 
 ## CUESTIONARIO
