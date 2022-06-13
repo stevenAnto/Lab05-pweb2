@@ -517,7 +517,7 @@ Give instructions on how to collaborate with your project.
 ## FAQs
 ***
 Para el proyecto ya debemos tener instalar pip, que es el manejador de paquetes de python
-1. **Entorno virtual**
+1. **Entorno virtual:**
 Lo primero que hacemos es prepara el entorno virtual, usando virtualenv
 ```
 virtualenv -p python3 myvenv
@@ -529,31 +529,31 @@ Luego recien, procedemos a instalar Django
 pip install Django
 
 ```
-1. **Creando el proyecto**
+2. **Creando el proyecto:**
 Una vez que tenemos el entorno virtual activado y con Django ya instalado, procedemos a crear nuestro proyecto con 
 ```
 django-admin startproject mysite .
 
 ```
 Despues, realizamos algunas configuraciones en la carpeta setting.py, tales como la TIME_ZONE,LANGUAGE_CODE, STATIC_ROOT
-2. **Creando la BD**
+3. **Creando la BD:**
 Para eso hacemos el primer migrate
 ```
 python manage.py migrate
 
 ```
-3. **Verificamos lanzador el servidor**
+4. **Verificamos lanzador el servidor:**
 Lanzamos el servidor para verificar que la BD esta funcionando corretamente
 ```
 python manage.py runserver
 ```
-4. **creamos la primera aplicacion**
+5. **creamos la primera aplicacion:**
 Para crear una aplicacion ejecutamos el siguiente comando
 ```
 python manage.py startapp blog
 ```
 
-5. **creamos la primera aplicacion**
+6. **creamos la primera aplicacion:**
 Agregamos la aplicacion al proyecto en setting.py
 ```
 INSTALLED_APPS = [
@@ -566,7 +566,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
 ]
 ```
-6. **crando el modelo Post**
+7. **crando el modelo Post:**
 Ahora podemos programar en models.py de la aplicacion blog, es aqui donde va nuestro codigo, creamos la clase Post con los atributos
 authos, title, text, create_date, published_date y unos metodos que nos muestran el titulo del post, y el otro graa la fecha del Post
 Para crear una aplicacion ejecutamos el siguiente comando
@@ -581,13 +581,13 @@ class Post(models.Model):
             blank=True, null=True)
             
 ```
-7. **agregamos el modelo a la BD**
+8. **agregamos el modelo a la BD:**
 Para crear una aplicacion ejecutamos el siguiente comando
 ```
 manage.py makemigrations blog
 python manage.py migrate blog
 ```
-8. **para manipular dichos modelos post, usamos el admin de Django**
+9. **para manipular dichos modelos post, usamos el admin de Django:**
 modificamos el archivo admin.py
 ```
 from django.contrib import admin
@@ -596,14 +596,14 @@ from .models import Post
 admin.site.register(Post)
 ```
 creamos superusuario y contraseña
-9. **Modficacion en el navegador**
+10. **Modficacion en el navegador:**
 Una vez realizado todo esto, podemos lanzar el servidor y en admin se puede modificar el modelo post a traves de la vista 
 que nos ofrece Django de admin
 
-10. **Subimos a Github**
+11. **Subimos a Github:**
 Procedemos a subirlo todo al repositorio de github, previamente creado el archivo .gitignore
 
-11. **pythonAnywhere**
+12. **pythonAnywhere:**
 Nos registramos en pythonAnywhere y 
 ```
 pa_autoconfigure_django.py --python=3.6 https://github.com/Lab05-pweb2.git
