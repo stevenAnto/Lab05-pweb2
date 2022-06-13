@@ -45,7 +45,9 @@
         <li>GALVEZ QUILLA, Henry Isaias (hgalvezq@unsa.edu.pe)</li>
         
     </ul>
-<td>NOTA: </td>
+    </td>
+</tr>
+<td> NOTA: </td>
 <td width="150"></td>
 </<tr>
 <tr><td colspan="6">DOCENTES:
