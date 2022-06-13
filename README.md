@@ -580,15 +580,48 @@ Crea la base de datos en PythonAnywhere ejecutando el comando manage.py migrate 
 Nos dirigimos a WEB en pythonAnywhere, en donde nos porpociona una URL, y de esa manera ya podemos ver nuestra pagina web en el servidor de
 PythonAnywhere
 
-22. **Creacion de base.html:**
+13. **Creacion de página de inicio:**
+
+
+Inicialmente debemos editar urls.py que se encuentra dentro de mysite, agregando una conexión a un urls.py dentro de la carpeta blog
+
+Seguido de ello creamos dicho archivo en blog, añadiendo una dirección que se diriga al archivo list_post.html
+
+Por el momento, si abrimos la dirección, nos aparecera un error ya que aún no creamos dicho archivo
+
+Por ello, dentro de la carpeta blog, crearemos la carpeta templates, y dentro de esta una nueva carpeta blog
+
+Dentro de esta ultima crearemos list_post.html
+
+Añadiendo lo que requerimos que se vea en la pahina de inicio
+
+Para la visualización de nuestros post, utilizaremos un ciclo for en cual recorrera cada objeto post que tenga como condición que haya sido publicado antes de la fecha actual.
+
+14. **Agregar un diseño a nuestra pagina:**
+
+Ello será agregado en mauor proporción a el documento list_post.html
+
+Seguido de ello creamos dicho archivo en blog, añadiendo una dirección que se diriga al archivo list_post.html
+
+Por el momento, si abrimos la dirección, nos aparecera un error ya que aún no creamos dicho archivo
+
+Por ello, dentro de la carpeta blog, crearemos la carpeta templates, y dentro de esta una nueva carpeta blog
+
+Dentro de esta ultima crearemos list_post.html
+
+Añadiendo lo que requerimos que se vea en la pahina de inicio
+
+Para la visualización de nuestros post, utilizaremos un ciclo for en cual recorrera cada objeto post que tenga como condición que haya sido publicado antes de la fecha actual.
+
+15. **Creacion de base.html:**
 Se creo un archivo base.html en la que se copio el codigo similar a post_list solo dejando el area de body para que sea reemplazado posteriormente
-23. **Modificacion archivo post_list.html:**
+16. **Modificacion archivo post_list.html:**
 Se edito el archivo post_list.html para extender el archivo base.html.
-24. **Creacion post_detail:**
+17. **Creacion post_detail:**
 Se crearon el archivo post_detail el cual muestra el contenido de algun post, y se le vinculo a post_list.
-25. **Modificar urls.py:**
+18. **Modificar urls.py:**
 Se anadio el url respectivo en el archivo urls.py.
-26. **Modificar view.py:**
+19. **Modificar view.py:**
 Se modifico el archivo view.py, donde se incluyo una función que pueda renderizar lo solicitado.
 ![Carpeta templates](imagenes/templates.png)
 
