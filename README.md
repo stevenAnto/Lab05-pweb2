@@ -35,7 +35,7 @@
 <td>NÚMERO DE PRÁCTICA:</td><td>05</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
 <tr>
-<td>FECHA DE PRESENTACIÓN: </td><td>12-Jun-2022</td><td>HORA DE PRESENTACIÓN: </td><td colspan="3">11:00 pm/td>
+<td>FECHA DE PRESENTACIÓN: </td><td>12-Jun-2022</td><td>HORA DE PRESENTACIÓN: </td><td colspan="3">11:00 pm</td>
 </tr>
 <tr><td colspan="4">INTEGRANTE(S): 
 <ul>
@@ -59,38 +59,6 @@
 </div>
 
 
-<table>
-<theader>
-<tr><th colspan="6">INFORMACIÓN BÁSICA</th></tr>
-</theader>
-<tbody>
-<tr><td>ASIGNATURA:</td><td colspan="5">Programación Web 2</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Django</td></tr>
-<tr>
-<td>NÚMERO DE PRÁCTICA:</td><td>05</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
-</tr>
-<tr>
-<td>FECHA INICIO::</td><td>30-May-2022</td><td>FECHA FIN:</td><td>03-Jun-2022</td><td>DURACIÓN:</td><td>04 horas</td>
-</tr>
-<tr><td colspan="6">INTEGRANTES:
-    <ul>
-        <li>ACO TITO, Anthony Edwin (aacot@unsa.edu.pe)</li>
-        <li>CALCINA PUMA, Esteven Antonio (ecalcinap@unsa.edu.pe)</li>
-        <li>CHAMBILLA PERCA, Valentina Milagros (vchambillap@unsa.edu.pe)</li>
-        <li>GALVEZ QUILLA, Henry Isaias (hgalvezq@unsa.edu.pe)</li>
-        
-</tr>
-<td> NOTA: </td>
-<td width="150"></td>
-</<tr>
-<tr><td colspan="6">DOCENTES:
-<ul>
-<li>Richart Smith Escobedo Quispe - rescobedoq@unsa.edu.pe</li>
-</ul>
-</td>
-</<tr>
-</tdbody>
-</table>
 
 # Django
 
