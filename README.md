@@ -536,6 +536,7 @@ django-admin startproject mysite .
 
 ```
 Despues, realizamos algunas configuraciones en la carpeta setting.py, tales como la TIME_ZONE,LANGUAGE_CODE, STATIC_ROOT
+
 3. **Creando la BD:**
 Para eso hacemos el primer migrate
 ```
