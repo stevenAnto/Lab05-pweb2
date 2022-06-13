@@ -591,7 +591,20 @@ PythonAnywhere
     
 -   ¿Qué diferencias existen entre EasyInstall, pip, y PyPM?
 -   En un proyecto Django que se debe ignorar para usar git. Vea: https://github.com/django/django/blob/main/.gitignore. ¿Qué otros tipos de archivos se deberían agregar a este archivo?
+    
+    Según el tutorial Djangogirls tambien deberian agregar en el gitignore lo siguiente :
+    ```
+    *.pyc
+    *~
+    myvenv
+    db.sqlite3
+    /static
+    .DS_Store
+    ```
+    
 -   Utilice ```python manage.py shell``` para agregar objetos. ¿Qué archivos se modificaron al agregar más objetos?
+    
+    Como python manage.py shell activa el interprete de python nos permite modificar de forma directa la base de datos, en este caso db.sqlite3
 
 #
 
