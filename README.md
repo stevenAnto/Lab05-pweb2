@@ -547,13 +547,13 @@ Lanzamos el servidor para verificar que la BD esta funcionando corretamente
 ```
 python manage.py runserver
 ```
-5. **creamos la primera aplicacion:**
+5. **Creamos la primera aplicacion:**
 Para crear una aplicacion ejecutamos el siguiente comando
 ```
 python manage.py startapp blog
 ```
 
-6. **creamos la primera aplicacion:**
+6. **Creamos la primera aplicacion:**
 Agregamos la aplicacion al proyecto en setting.py
 ```
 INSTALLED_APPS = [
@@ -566,7 +566,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
 ]
 ```
-7. **crando el modelo Post:**
+7. **Creando el modelo Post:**
 Ahora podemos programar en models.py de la aplicacion blog, es aqui donde va nuestro codigo, creamos la clase Post con los atributos
 authos, title, text, create_date, published_date y unos metodos que nos muestran el titulo del post, y el otro graa la fecha del Post
 Para crear una aplicacion ejecutamos el siguiente comando
@@ -581,13 +581,13 @@ class Post(models.Model):
             blank=True, null=True)
             
 ```
-8. **agregamos el modelo a la BD:**
+8. **Agregamos el modelo a la BD:**
 Para crear una aplicacion ejecutamos el siguiente comando
 ```
 manage.py makemigrations blog
 python manage.py migrate blog
 ```
-9. **para manipular dichos modelos post, usamos el admin de Django:**
+9. **Para manipular dichos modelos post, usamos el admin de Django:**
 modificamos el archivo admin.py
 ```
 from django.contrib import admin
@@ -603,7 +603,7 @@ que nos ofrece Django de admin
 11. **Subimos a Github:**
 Procedemos a subirlo todo al repositorio de github, previamente creado el archivo .gitignore
 
-12. **pythonAnywhere:**
+12. **PythonAnywhere:**
 Nos registramos en pythonAnywhere y 
 ```
 pa_autoconfigure_django.py --python=3.6 https://github.com/Lab05-pweb2.git
