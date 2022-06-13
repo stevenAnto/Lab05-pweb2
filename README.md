@@ -562,6 +562,7 @@ from .models import Post
 admin.site.register(Post)
 ```
 creamos superusuario y contraseña
+
 10. **Modficacion en el navegador:**
 Una vez realizado todo esto, podemos lanzar el servidor y en admin se puede modificar el modelo post a traves de la vista 
 que nos ofrece Django de admin
