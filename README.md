@@ -580,12 +580,17 @@ Crea la base de datos en PythonAnywhere ejecutando el comando manage.py migrate 
 Nos dirigimos a WEB en pythonAnywhere, en donde nos porpociona una URL, y de esa manera ya podemos ver nuestra pagina web en el servidor de
 PythonAnywhere
 
-22. Luego se creo un archivo base.html en la que se copio el código similar a post list solo dejando el area de body para que sea reemplazado posteriormente
-23. Posteriormente, se edito el archivo post_list.html para extender el archivo base.html.
-24. Se crearon eñ archivo post_detail el cual muestra el contenido de algun post, y se le vinculo a post_list.
-25. Se añadio el url respectivo en el archivo urls.py.
-26. Se modifico el archivo view.py, donde se incluyo una función que pueda renderizar lo solicitado.
-
+22. **Creacion de base.html:**
+Se creo un archivo base.html en la que se copio el codigo similar a post_list solo dejando el area de body para que sea reemplazado posteriormente
+23. **Modificacion archivo post_list.html:**
+Se edito el archivo post_list.html para extender el archivo base.html.
+24. **Creacion post_detail:**
+Se crearon el archivo post_detail el cual muestra el contenido de algun post, y se le vinculo a post_list.
+25. **Modificar urls.py:**
+Se anadio el url respectivo en el archivo urls.py.
+26. **Modificar view.py:**
+Se modifico el archivo view.py, donde se incluyo una función que pueda renderizar lo solicitado.
+![Carpeta templates](imagenes/templates.png)
 
 ## CUESTIONARIO
 -   ¿Cuál es un estándar de codificación para Python? Ejemplo: Para PHP en el proyecto Pear https://pear.php.net/manual/en/standards.php
