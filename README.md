@@ -105,7 +105,7 @@
 -   Indice de paquetes de Python ~ PyPI. Otros: CPAN->Perl, Perl->PHP
 -   
 
-## EJERCICIO RESUELTO POR EL DOCENTE
+<!--## EJERCICIO RESUELTO POR EL DOCENTE
 
 -   Crea el directorio para trabajar Django dentro de un entorno virtual:
     ```sh
@@ -473,7 +473,7 @@
         ![DJANGO-PANEL-ADMIN-ADD-02](imagenes/django_admin_04.png)
 
     -   Ver video
-        ![DJANGO-PANEL-ADMIN-VIEW](imagenes/django_admin_05.png)
+        ![DJANGO-PANEL-ADMIN-VIEW](imagenes/django_admin_05.png)-->
 
 
 #
@@ -481,10 +481,108 @@
 ## EJERCICIOS PROPUESTOS
 -   Crea un blog sencillo en un entorno virtual utilizando la guía: https://tutorial.djangogirls.org/es/django_start_project/
 -   Especificar paso a paso la creación del blog en su informe.
--   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)
--   Adjuntar URL del video en el informe.
 
-#
+1. **Entorno virtual:**
+Lo primero que hacemos es prepara el entorno virtual, usando virtualenv
+```
+virtualenv -p python3 myvenv
+source myvenv/bin/activate
+
+```
+Luego recien, procedemos a instalar Django
+```
+pip install Django
+
+```
+2. **Creando el proyecto:**
+Una vez que tenemos el entorno virtual activado y con Django ya instalado, procedemos a crear nuestro proyecto con 
+```
+django-admin startproject mysite .
+
+```
+Despues, realizamos algunas configuraciones en la carpeta setting.py, tales como la TIME_ZONE,LANGUAGE_CODE, STATIC_ROOT
+
+3. **Creando la BD:**
+Para eso hacemos el primer migrate
+```
+python manage.py migrate
+
+```
+4. **Verificamos lanzador el servidor:**
+Lanzamos el servidor para verificar que la BD esta funcionando corretamente
+```
+python manage.py runserver
+```
+5. **Creamos la primera aplicacion:**
+Para crear una aplicacion ejecutamos el siguiente comando
+```
+python manage.py startapp blog
+```
+
+6. **Creamos la primera aplicacion:**
+Agregamos la aplicacion al proyecto en setting.py
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'blog.apps.BlogConfig',
+]
+```
+7. **Creando el modelo Post:**
+Ahora podemos programar en models.py de la aplicacion blog, es aqui donde va nuestro codigo, creamos la clase Post con los atributos
+authos, title, text, create_date, published_date y unos metodos que nos muestran el titulo del post, y el otro graa la fecha del Post
+Para crear una aplicacion ejecutamos el siguiente comando
+```
+class Post(models.Model):
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    title = models.CharField(max_length=200)
+    text = models.TextField()
+    created_date = models.DateTimeField(
+            default=timezone.now)
+    published_date = models.DateTimeField(
+            blank=True, null=True)
+            
+```
+8. **Agregamos el modelo a la BD:**
+Para crear una aplicacion ejecutamos el siguiente comando
+```
+manage.py makemigrations blog
+python manage.py migrate blog
+```
+9. **Para manipular dichos modelos post, usamos el admin de Django:**
+modificamos el archivo admin.py
+```
+from django.contrib import admin
+from .models import Post
+
+admin.site.register(Post)
+```
+creamos superusuario y contraseña
+
+10. **Modficacion en el navegador:**
+Una vez realizado todo esto, podemos lanzar el servidor y en admin se puede modificar el modelo post a traves de la vista 
+que nos ofrece Django de admin
+
+11. **Subimos a Github:**
+Procedemos a subirlo todo al repositorio de github, previamente creado el archivo .gitignore
+
+12. **PythonAnywhere:**
+Nos registramos en pythonAnywhere y 
+```
+pa_autoconfigure_django.py --python=3.6 https://github.com/Lab05-pweb2.git
+```
+El comando anterior descarga el  de GitHub ,crea un virtualenv en PythonAnywhere,actualiza tus ficheros de settings con algunos settings de despliegue.
+Crea la base de datos en PythonAnywhere ejecutando el comando manage.py migrate ,c onfigura los archivos estáticos (static) (luego hablaremos de éstos con más detalle), y configura PythonAnywhere para publicar tu aplicación web a través de su API.
+
+Nos dirigimos a WEB en pythonAnywhere, en donde nos porpociona una URL, y de esa manera ya podemos ver nuestra pagina web en el servidor de
+PythonAnywhere
+
+
+
 
 ## CUESTIONARIO
 -   ¿Cuál es un estándar de codificación para Python? Ejemplo: Para PHP en el proyecto Pear https://pear.php.net/manual/en/standards.php
