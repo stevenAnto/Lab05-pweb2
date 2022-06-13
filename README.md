@@ -586,6 +586,10 @@ PythonAnywhere
 
 ## CUESTIONARIO
 -   ¿Cuál es un estándar de codificación para Python? Ejemplo: Para PHP en el proyecto Pear https://pear.php.net/manual/en/standards.php
+     
+    Es el código que estandariza la biblioteca estándar en la distribución principal de Python.
+    https://peps.python.org/pep-0008/
+    
 -   ¿Qué diferencias existen entre EasyInstall, pip, y PyPM?
 -   En un proyecto Django que se debe ignorar para usar git. Vea: https://github.com/django/django/blob/main/.gitignore. ¿Qué otros tipos de archivos se deberían agregar a este archivo?
 -   Utilice ```python manage.py shell``` para agregar objetos. ¿Qué archivos se modificaron al agregar más objetos?
