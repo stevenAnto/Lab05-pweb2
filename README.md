@@ -105,7 +105,7 @@
 -   Indice de paquetes de Python ~ PyPI. Otros: CPAN->Perl, Perl->PHP
 -   
 
-## EJERCICIO RESUELTO POR EL DOCENTE
+<!--## EJERCICIO RESUELTO POR EL DOCENTE
 
 -   Crea el directorio para trabajar Django dentro de un entorno virtual:
     ```sh
@@ -473,7 +473,7 @@
         ![DJANGO-PANEL-ADMIN-ADD-02](imagenes/django_admin_04.png)
 
     -   Ver video
-        ![DJANGO-PANEL-ADMIN-VIEW](imagenes/django_admin_05.png)
+        ![DJANGO-PANEL-ADMIN-VIEW](imagenes/django_admin_05.png)-->
 
 
 #
