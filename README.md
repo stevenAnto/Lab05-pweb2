@@ -37,20 +37,16 @@
 <tr>
 <td>FECHA INICIO::</td><td>30-May-2022</td><td>FECHA FIN:</td><td>03-Jun-2022</td><td>DURACIÓN:</td><td>04 horas</td>
 </tr>
-<tr><td colspan="6">RECURSOS:
+<tr><td colspan="6">INTEGRANTES:
     <ul>
-        <li>https://www.w3schools.com/python/python_reference.asp</li>
-        <li>https://docs.python.org/3/tutorial/</li>
-        <li>https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Models</li>
-        <li>https://tutorial.djangogirls.org/es/django_models/</li>
-        <li>https://pear.php.net/manual/en/standards.php</li>
-        <li>https://docs.djangoproject.com/en/4.0/</li>
-        <li>https://www.youtube.com/watch?v=M4NIs4BM1dk</li>
-        <li>https://pypi.org/</li>
-        <li>https://pip.pypa.io/en/latest/user_guide/</li>
-        <li>https://packaging.python.org/en/latest/tutorials/installing-packages/</li>
+        <li>ACO TITO, Anthony Edwin (aacot@unsa.edu.pe)</li>
+        <li>CALCINA PUMA, Esteven Antonio (ecalcinap@unsa.edu.pe)</li>
+        <li>CHAMBILLA PERCA, Valentina Milagros (vchambillap@unsa.edu.pe)</li>
+        <li>GALVEZ QUILLA, Henry Isaias (hgalvezq@unsa.edu.pe)</li>
+        
     </ul>
-</td>
+<td>NOTA: </td>
+<td width="150"></td>
 </<tr>
 <tr><td colspan="6">DOCENTES:
 <ul>
