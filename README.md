@@ -44,8 +44,6 @@
         <li>CHAMBILLA PERCA, Valentina Milagros (vchambillap@unsa.edu.pe)</li>
         <li>GALVEZ QUILLA, Henry Isaias (hgalvezq@unsa.edu.pe)</li>
         
-    </ul>
-    </td>
 </tr>
 <td> NOTA: </td>
 <td width="150"></td>
