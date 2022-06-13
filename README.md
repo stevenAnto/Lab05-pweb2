@@ -626,7 +626,12 @@ Se modifico el archivo view.py, donde se incluyo una función que pueda renderiz
 ![Carpeta templates](imagenes/templates.png)
 
 -   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)
+    
+    Se adjunta video 
+    
 -   Adjuntar URL del video en el informe.
+    
+    https://youtu.be/2Nz0iA_tbP4
 
 ## CUESTIONARIO
 -   ¿Cuál es un estándar de codificación para Python? Ejemplo: Para PHP en el proyecto Pear https://pear.php.net/manual/en/standards.php
