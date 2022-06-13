@@ -624,6 +624,14 @@ Se anadio el url respectivo en el archivo urls.py.
 19. **Modificar view.py:**
 Se modifico el archivo view.py, donde se incluyo una función que pueda renderizar lo solicitado.
 ![Carpeta templates](imagenes/templates.png)
+20. **Creacion de formulario en Django**
+Se importa el modelo en forms.py
+Luego lo enlazamos con el base.html
+Después asociamos el link a urls.py
+Para poder verlo añadimos post_New en views.py que nos permitirá guardar los datos también
+El form hace automaticamente validacion para que no haya datos vacíos
+Se pued editar el formulario en post_detail.html y podemos poner seguridad para que solo los usuarios añadan nuevos post
+No olvidar actualizar los otros archivos como base.html urls.py etc
 
 -   Crear un video tutorial donde realice las operaciones CRUD (URL public reproducible online)
     
