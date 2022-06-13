@@ -594,6 +594,12 @@ PythonAnywhere
     https://peps.python.org/pep-0008/
     
 -   ¿Qué diferencias existen entre EasyInstall, pip, y PyPM?
+    
+    Los tres son manejadores de paquetes, sin embargo easyInstall es el mas antiguo
+    Segun Stackoverflow
+    pip se escribió originalmente para mejorar easy_install es varios aspectos como por ejemplo : Todos los paquetes se descargan antes de la            instalación,  pip realiza un seguimiento de por qué se requiere ese paquete.
+Los mensajes de error deberían ser útiles, el código es relativamente conciso y cohesivo, lo que facilita su uso mediante programación.
+y respecto a PyPM ,los desarrolladores  tienen acceso directo a través de la web para buscar repositorios de PyPM (colecciones de paquetes de ActivePython).
 -   En un proyecto Django que se debe ignorar para usar git. Vea: https://github.com/django/django/blob/main/.gitignore. ¿Qué otros tipos de archivos se deberían agregar a este archivo?
     
     Según el tutorial Djangogirls tambien deberian agregar en el gitignore lo siguiente :
